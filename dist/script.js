@@ -32,9 +32,13 @@ if (window.matchMedia('(pointer:fine) and (prefers-reduced-motion: no-preference
     const y = (event.clientY - bounds.top) / bounds.height - .5;
     stage.style.setProperty('--mx', `${x * 20}px`);
     stage.style.setProperty('--my', `${y * 20}px`);
+    stage.style.setProperty('--bx', `${x * -10}px`);
+    stage.style.setProperty('--by', `${y * -10}px`);
   });
   stage.addEventListener('pointerleave', () => {
     stage.style.setProperty('--mx', '0px');
     stage.style.setProperty('--my', '0px');
+    stage.style.setProperty('--bx', '0px');
+    stage.style.setProperty('--by', '0px');
   });
 }
