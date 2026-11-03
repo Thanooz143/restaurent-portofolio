@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.marquee div,.floating-disc,.spark,.contact-orb{animation:none}.hero-frame{transition:none}}
 
 .concept-mark{display:grid;place-items:center;width:43px;height:43px;background:var(--cream);color:#171715;border-radius:50%;font-size:24px}.contact-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.whatsapp-action{border:1px solid rgba(245,241,231,.45);color:var(--cream)}.whatsapp-action:hover{background:var(--cream);color:var(--bg)}.contact-details{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:24px;font-size:13px;color:#c3c4b8}.contact-details a:hover{color:var(--orange)}
+
+.project-card-link{display:block}.project-card-link:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
